@@ -8,6 +8,7 @@
     font-family: "Rampart One", sans-serif;
     font-weight: 400;
     font-style: normal;
+    overflow-y: hidden;
 }
 body{
     background-color: darkslategray;
@@ -34,15 +35,17 @@ body{
 button {
     padding: 15px;
     border-radius: 8px;
-    background-color: crimson;
+    background-color: rgb(63, 61, 61);
     cursor: pointer;
     outline: none;
-    color: rgb(17, 15, 15);
+    color: rgb(250, 248, 248);
     font-size: 15px;
     transition: 0.3s ease-in-out;
+    font-family: "Poppins", sans-serif;
 }
 button:hover{
-    background-color: rgb(255, 0, 55);
+    background-color: rgb(126, 120, 121);
+    
 }
 
 /* CSS CONTAINER GAME */
